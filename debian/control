@@ -1,5 +1,5 @@
 Source: stackdriver-jmxtrans-all
-Section: main
+Section: header
 Priority: extra
 Maintainer: Morten Hekkvang <morten.hekkvang@gmail.com>
 Build-Depends: debhelper (>= 9)
