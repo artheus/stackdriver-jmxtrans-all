@@ -1,0 +1,11 @@
+Source: stackdriver-jmxtrans-all
+Section: main
+Priority: extra
+Maintainer: Morten Hekkvang <morten.hekkvang@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.4
+
+Package: stackdriver-jmxtrans-all
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, openjdk-7-jre
+Description: Stackdriver jmxtrans bundle for Google Cloud Monitoring.

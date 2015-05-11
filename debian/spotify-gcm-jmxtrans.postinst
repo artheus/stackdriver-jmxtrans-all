@@ -1,0 +1,8 @@
+#!/bin/sh
+# postinst script for spotify-gcm-jmxtrans
+
+set -e
+
+# Set permissions and owner of jar file
+chmod 0640 mnt/jmxtrans/jmxtrans-all.jar
+chown root:root mnt/jmxtrans/jmxtrans-all.jar
