@@ -7,5 +7,5 @@ Standards-Version: 3.9.4
 
 Package: stackdriver-jmxtrans-all
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, openjdk-7-jre
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Stackdriver jmxtrans bundle for Google Cloud Monitoring.
